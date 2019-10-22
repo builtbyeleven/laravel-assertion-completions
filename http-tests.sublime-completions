@@ -1,0 +1,12 @@
+{
+	// scope:
+    //
+    // source.php meta.function-call-object
+    // source.php variable.other.member
+    // source.php variable.other.property
+    "scope": "source.php meta.function-call-object, source.php variable.other.member, source.php variable.other.property",
+
+	"completions": [
+		{"trigger":"assertCookie","contents":"assertCookie(${1:key}, ${2:array});"},
+	]
+}
