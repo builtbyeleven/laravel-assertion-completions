@@ -1,0 +1,14 @@
+{
+	// scope:
+    //
+    // source.php meta.function-call-object
+    // source.php variable.other.member
+    // source.php variable.other.property
+    "scope": "source.php meta.function-call-object, source.php variable.other.member, source.php variable.other.property",
+
+    "completions": [
+    	{"trigger":"assertDatabaseHas", "contents":"assertDatabaseHas(${1:table}, ${2:array});"},
+        {"trigger":"assertDatabaseMissing", "contents":"assertDatabaseMissing(${1:table}, ${2:array});"},
+        {"trigger":"assertSoftDeleted", "contents":"assertSoftDeleted(${1:table}, ${2:array});"}
+    ]
+}
