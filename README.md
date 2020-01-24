@@ -2,7 +2,15 @@
 
 Autocompletes the Laravel assertion. 
 
-## Installation
+## Install
+
+The easiest way to install this is with [Package Control](https://packagecontrol.io/)
+
+### Package Control
+
+Install via Package Control by searching for **Laravel Assertion Completions**
+
+### Manual 
 
 Install by cloning the repository into your Sublime Text install's `Packages` folder:
 
@@ -16,4 +24,4 @@ git clone https://github.com/builtbyeleven/laravel-assertion-completions.git ~/L
 
 ## Bugs
 
-Please submit an issue or make a pull request.
+Please create an [issue](https://github.com/builtbyeleven/laravel-assertion-completions/issues) or make a [pull request](https://github.com/builtbyeleven/laravel-assertion-completions/pulls).
