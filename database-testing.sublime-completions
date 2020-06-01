@@ -9,6 +9,7 @@
     "completions": [
     	{"trigger":"assertDatabaseHas", "contents":"assertDatabaseHas(${1:table}, ${2:array});"},
         {"trigger":"assertDatabaseMissing", "contents":"assertDatabaseMissing(${1:table}, ${2:array});"},
+        {"trigger":"assertDeleted", "contents":"assertDeleted(${1:table}, ${2:array});"},
         {"trigger":"assertSoftDeleted", "contents":"assertSoftDeleted(${1:table}, ${2:array});"}
     ]
 }
