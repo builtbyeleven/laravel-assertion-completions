@@ -11,6 +11,7 @@
     	{"trigger":"assertCookieExpired","contents":"assertCookieExpired(${1:cookieName});"},
     	{"trigger":"assertCookieNotExpired","contents":"assertCookieNotExpired(${1:cookieName});"},
     	{"trigger":"assertCookieMissing","contents":"assertCookieMissing(${1:cookieName});"},
+        {"trigger":"assertCreated","contents":"assertCreated();"},
     	{"trigger":"assertDontSee","contents":"assertDontSee(${1:value});"},
     	{"trigger":"assertDontSeeText","contents":"assertDontSeeText(${1:value});"},
     	{"trigger":"assertExactJson","contents":"assertExactJson(${1:array});"},
